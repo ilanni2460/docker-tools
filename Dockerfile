@@ -9,20 +9,25 @@ RUN set -xe \
 &&  apt-get -y install \
     ansible \
     net-tools \
-	telnet \
-	procps \
-	traceroute \
-	bzip2 \
-	bash-completion \
-	vim \
-	openssh-client \
-	unzip \
-	lrzsz \
-	wget \
-	jq \
-	curl \
-	git \
-	bash-completion \
-	iproute2 \
+    telnet \
+    procps \
+    traceroute \
+    bzip2 \
+    vim \
+    openssh-client \
+    unzip \
+    lrzsz \
+    wget \
+    jq \
+    curl \
+    git \
+    bash-completion \
+    iproute2 \
+    iputils-ping \
+    netcat \
+    iftop \
+    htop \
+    rsync \
+    less \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists /var/cache/apt/archives
