@@ -30,4 +30,5 @@ RUN set -xe \
     rsync \
     less \
 && apt-get clean \
-&& rm -rf /var/lib/apt/lists /var/cache/apt/archives
+&& rm -rf /var/lib/apt/lists /var/cache/apt/archives \
+&& echo 'source <(kubectl completion bash)' >>~/.bashrc
