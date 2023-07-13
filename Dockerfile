@@ -1,3 +1,4 @@
+# Base OS Debian-11
 ARG KUBECTL_VERSION=1.24.15
 FROM bitnami/kubectl:${KUBECTL_VERSION}
 LABEL maintainer="烂泥行天下" \
